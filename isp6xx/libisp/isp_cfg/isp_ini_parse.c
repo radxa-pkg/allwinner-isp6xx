@@ -53,6 +53,7 @@
 #include "SENSOR_H/imx386_mipi_default_ini_video_a733.h"
 #include "SENSOR_H/gc030a_mipi_a733.h"
 #include "SENSOR_H/gc05a2_mipi_2_a733.h"
+#include "SENSOR_H/gc2093_mipi_a733.h"
 #include "SENSOR_H/imx214_mipi_4208_3120_a733.h"
 #include "SENSOR_H/imx214_mipi_3840_2160_a733.h"
 #include "SENSOR_H/imx214_mipi_1080p_a733.h"
@@ -979,6 +980,7 @@ struct isp_cfg_array cfg_arr[] = {
 	{"imx386_mipi", "imx386_mipi_default_ini_a733", 1920, 1080, 30, 0, 0, &imx386_mipi_video_isp_cfg},
 	{"gc05a2_mipi_2", "gc05a2_mipi_2_a733", 2592, 1944, 30, 0, 0, &gc05a2_mipi_2_a733_isp_cfg},
 	{"gc030a_mipi", "gc030a_mipi_isp_cfg", 640, 480, 30, 0, 0, &gc030a_mipi_isp_cfg},
+	{"gc2093_mipi", "gc2093_mipi_a733", 1920, 1080, 30, 0, 0, &gc2093_mipi_isp_cfg},
 	{"imx214", "imx214_13m_isp_cfg", 4208, 3120, 30, 0, 0, &imx214_13m_isp_cfg},
 	{"imx214", "imx214_2160p_isp_cfg", 3840, 2160, 30, 0, 0, &imx214_2160p_isp_cfg},
 	{"imx214", "imx214_isp_1080p_cfg", 1920, 1080, 30, 0, 0, &imx214_1080p_isp_cfg},
@@ -1276,5 +1278,4 @@ int parser_ini_info(struct isp_param_config *param, char *isp_cfg_name, char *se
 
 	return 0;
 }
-
 
