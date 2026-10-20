@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: allwinner-isp6xx
-Source: https://github.com/vamrs-feng/allwinner-isp6xx
+Source: https://github.com/radxa/allwinner-isp6xx
 
 Files: *
 Copyright: Allwinner Technology Co., Ltd.
@@ -9,7 +9,7 @@ License: Allwinner
  archives without a repository-wide license statement. This packaging
  does not grant additional rights to those files.
 
-Files: isp6xx/demo/*
+Files: src/isp6xx/demo/*
 Copyright: 2014 softwinner
            2020-2024 Allwinner Technology Co., Ltd.
 License: GPL-2+
@@ -18,7 +18,7 @@ License: GPL-2+
  On Debian systems, the full text of version 2 is available in
  /usr/share/common-licenses/GPL-2.
 
-Files: isp6xx/libisp/iniparser/*
+Files: src/isp6xx/libisp/iniparser/*
 Copyright: 2000-2011 Nicolas Devillard
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a

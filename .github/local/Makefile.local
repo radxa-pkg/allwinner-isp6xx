@@ -10,7 +10,7 @@ ISP_BUILD_ARGS := CC=aarch64-linux-gnu-gcc AR=aarch64-linux-gnu-ar \
 main_build:
 	rm -rf "$(ISP_BUILD_DIR)"
 	mkdir -p out
-	cp -a isp6xx "$(ISP_BUILD_DIR)"
+	cp -a src/isp6xx "$(ISP_BUILD_DIR)"
 	# Keep the same algorithm archive as the upstream Debian build.
 	cp "$(ISP_BUILD_DIR)/libisp/out/isp602_debian/glibc_64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu/libisp_algo.a" \
 		"$(ISP_BUILD_DIR)/libisp/out/isp602/glibc_64/libisp_algo.a"
