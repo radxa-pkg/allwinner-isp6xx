@@ -1,0 +1,2 @@
+out/isp602/install/usr/lib/*.so usr/lib/aarch64-linux-gnu
+out/isp602/install/usr/include/* usr/include

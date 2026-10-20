@@ -1,0 +1,21 @@
+Source: allwinner-isp6xx
+Section: libs
+Priority: optional
+Maintainer: "Radxa Computer Co., Ltd." <dev@radxa.com>
+Build-Depends: debhelper-compat (= 13),
+               devscripts,
+               lintian,
+               crossbuild-essential-arm64 [!arm64],
+               libc6:arm64 [!arm64],
+Standards-Version: 4.6.2
+Homepage: https://github.com/vamrs-feng/allwinner-isp6xx
+Rules-Requires-Root: no
+
+Package: libawispapi-isp-602-arm64
+Architecture: arm64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: libawispapi-isp-601-arm64, libawispapi-isp-606-arm64
+Description: Allwinner ISP602 camera libraries for A733 and T736
+ Allwinner ISP602 userspace libraries, sensor tuning data and public
+ headers for the A733 and T736 camera pipeline.
+ The ISP algorithm is linked from the upstream ARM64 binary archive.

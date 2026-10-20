@@ -1,0 +1,2 @@
+# shortcut: keep the upstream SDK libraries unchanged until upstream adds SONAMEs.
+libawispapi-isp-602-arm64: sharedobject-in-library-directory-missing-soname

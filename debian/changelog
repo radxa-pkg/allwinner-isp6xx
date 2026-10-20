@@ -1,0 +1,5 @@
+allwinner-isp6xx (1.0.1-1) UNRELEASED; urgency=medium
+
+  * Add RSDK builds and ARM64 packaging for ISP602 on A733 and T736.
+
+ -- Feng Zhang <feng@radxa.com>  Tue, 20 Oct 2026 17:00:00 +0800
