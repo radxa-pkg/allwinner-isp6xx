@@ -1,3 +1,11 @@
+allwinner-isp6xx (1.0.1-2) unstable; urgency=medium
+
+  [ Feng Zhang ]
+  * build: use upstream ISP sources as a submodule
+  * feat: configure A733 APT release targets
+
+ -- "Radxa Computer (Shenzhen) Co., Ltd." <dev@radxa.com>  Tue, 03 Nov 2026 04:07:00 +0000
+
 allwinner-isp6xx (1.0.1-1) unstable; urgency=medium
 
   * Add RSDK builds and ARM64 packaging for ISP602 on A733 and T736.
